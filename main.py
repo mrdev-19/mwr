@@ -3,6 +3,14 @@ from streamlit_option_menu import option_menu
 import pandas as pd
 from tempfile import NamedTemporaryFile
 #---------------------------------------------------
+hide_ele="""
+        <style>
+        #Mainmenu {visibility:hidden;}
+        footer {visibility:hidden;}
+        header {visibility:hidden;}
+        </style>
+        """
+st.markdown(hide_ele,unsafe_allow_html=True)
 
 page_title="MyWays.ai Results"
 page_icon=""
