@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-import cv2
 import pandas as pd
 from tempfile import NamedTemporaryFile
 #---------------------------------------------------
